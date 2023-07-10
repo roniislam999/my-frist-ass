@@ -36,3 +36,17 @@
     width: 400px;
 
 }
+.title-container{
+    text-align: center;
+    margin-top: 60px;
+}
+.home-container-too{
+
+    display: flex;
+    justify-content: space-around;
+    padding:100px 100px 100px 100px
+}
+.image-editor{
+    width: 250px;
+    height: 250px;
+}
