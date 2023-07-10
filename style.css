@@ -150,19 +150,28 @@
     width: 220px;
     height: 220px;
     padding-left: 10px 10px;
-}
-
+} 
 .section-fifth-container {
-    background-image: url(image/Rectangle\ 9.png);
-    background-repeat: no-repeat;
     background-size: cover;
     height: 300px;
     margin: auto;
     width: 924px;
+ }
+.section-fifth-container{
+
     text-align: center;
+    background-image: url(image/Rectangle\ 9.png);
+    background-size: cover;
+    height: 300px;
+    margin: auto;
+    width: 924px;
 }
-.input-container{
-    display: flex;
+.input-data{
+    border: 0px;
+    margin-top: 40px;
+padding: 15px 35px;
+width: 40%;
 }
-
-
+.text-title{
+    margin-top: 50px;
+}
