@@ -1,17 +1,24 @@
 /* 1st section */
+* {
+    margin: 0px;
+}
+
 .home-container {
     display: flex;
     justify-content: space-around;
-    height: 100vh;
     align-items: center;
+    height: 100vh;
     background-color: rgba(229, 84, 115, 0.10);
+    position: relative;
 
 }
 
-.home-right-side {}
+.home-right-side {
+    padding-right: 400px;
+}
 
 .title-right {
-    margin-bottom: 0px;
+    margin: 20px 20px 20px 20px;
     width: 608px;
     flex-direction: column;
     color: #272727;
@@ -20,10 +27,12 @@
 }
 
 .text-pragraph {
+    margin: 20px 20px 20px 20px;
     color: rgba(39, 39, 39, 0.60);
 }
 
 .button {
+    margin: 10px 20px 20px 20px;
     padding: 10px 20px 10px 20px;
     border-radius: 8px;
     background: #E55473;
@@ -32,21 +41,61 @@
     font-weight: 100;
     border: none;
 }
-.home-image{
-    width: 400px;
+
+.home-image {
+    padding-right: 100px;
+    width: 510px;
+    height: 550px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
 
 }
-.title-container{
+
+.title-container {
     text-align: center;
     margin-top: 60px;
 }
-.home-container-too{
 
+.home-container-too {
     display: flex;
+    gap: 50px;
     justify-content: space-around;
-    padding:100px 100px 100px 100px
+    padding: 100px 100px 100px 100px
 }
-.image-editor{
+
+.image-editor {
     width: 250px;
     height: 250px;
+}
+
+.photo {
+    text-align: center;
+}
+
+.image1 {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.image2 {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.image3 {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+.anchor{
+    color: black;
 }
