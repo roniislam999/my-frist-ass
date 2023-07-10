@@ -1,0 +1,17 @@
+.home-container {
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    background-color: rgba(229, 84, 115, 0.10);
+    padding: 50px 50px 50px 50px;
+}
+.home-right-side{
+}
+
+.title-right {
+    width: 708px;
+    flex-direction: column;
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+}
