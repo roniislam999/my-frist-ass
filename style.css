@@ -1,17 +1,38 @@
+/* 1st section */
 .home-container {
     display: flex;
     justify-content: space-around;
     height: 100vh;
+    align-items: center;
     background-color: rgba(229, 84, 115, 0.10);
-    padding: 50px 50px 50px 50px;
-}
-.home-right-side{
+
 }
 
+.home-right-side {}
+
 .title-right {
-    width: 708px;
+    margin-bottom: 0px;
+    width: 608px;
     flex-direction: column;
     color: #272727;
-    font-size: 80px;
+    font-size: 60px;
     font-weight: 800;
+}
+
+.text-pragraph {
+    color: rgba(39, 39, 39, 0.60);
+}
+
+.button {
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 100;
+    border: none;
+}
+.home-image{
+    width: 400px;
+
 }
