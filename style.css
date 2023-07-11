@@ -130,7 +130,7 @@
 .title-section-for-container {
     background-color: #FFFFFF;
     text-align: center;
-    margin-top: 60px;
+    margin-top: 50px;
 }
 
 .title-for {
@@ -141,52 +141,79 @@
     display: flex;
     justify-content: space-around;
     gap: 15px;
-    margin-right: 500px ;
+    margin-right: 500px;
     margin-left: 500px;
-    margin-bottom: 70px;
+    margin-bottom: 60px;
 }
 
-.p{
+.p {
     width: 220px;
     height: 220px;
     padding-left: 10px 10px;
-} 
+}
+
+
 .section-fifth-container {
-    background-size: cover;
-    height: 300px;
-    margin: auto;
-    width: 924px;
- }
-.section-fifth-container{
 
     text-align: center;
     background-image: url(image/Rectangle\ 9.png);
+    border-radius: 8px;
     background-size: cover;
-    height: 300px;
-    margin: auto;
     width: 924px;
-    margin-bottom: 40px;
+    margin-top: 10px;
+    margin-left: 150px;
+    margin-right: 200px;
+    margin-bottom: 60px;
+    padding-top: 50px;
+    height: 200px;
 }
-.input-data{
+
+.fifth-title {
+    color: #272727;
+    margin: 10px 10px;
+    font-size: 30px;
+    font-weight: 30px;
+    font-style: bold;
+
+}
+
+.input-data {
+    border-radius: 2px;
+    background: #FFF;
     border: 0px;
-    margin-top: 40px;
-padding: 15px 35px;
-width: 40%;
+    padding: 10px 10px;
+    width: 350px;
+    margin-top: 25px;
 }
-.text-title{
-    margin-top: 50px;
+
+.text-title {
+    color: #27272799;
 }
+
+.btn-fifth {
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    border: none;
+    padding: 5px 10px;
+    font-size: 20px;
+
+
+}
+
 /* last footer section */
-.footer-container{
+.footer-container {
     text-align: center;
-background-color: #111010;
-color: #FFF;
-padding: 30px 20px 20px 20px;
+    background-color: #111010;
+    color: #FFF;
+    padding: 30px 20px 20px 20px;
 }
-.footer-title{
+
+.footer-title {
     color: #E55473;
 }
-.footer-destription{
+
+.footer-destription {
     color: rgba(255, 255, 255, 0.40);
     font-size: 16px;
     font-weight: 400;
